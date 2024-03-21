@@ -1,0 +1,28 @@
+:root {
+    --the-text-h3: pink;
+    --the-id-from-p: grey;
+    --div-with-p: red;
+    --the-last-p: green;
+    --the-class-color-yellow: yellow;
+  }
+  
+  .text-box h3:first-of-type {
+    color: var(--the-text-h3);
+  }
+  
+  #greycol {
+    color: var(--the-id-from-p);
+  }
+  
+  .text-box div:last-of-type p {
+    color: var(--div-with-p);
+  }
+  
+  .text-box p:nth-of-type(3) {
+    color: var(--the-last-p);
+  }
+  
+  .text-box .yellow {
+    color: var(--the-class-color-yellow);
+  }
+  
